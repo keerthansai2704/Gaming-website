@@ -1,0 +1,377 @@
+body{
+    margin: none;
+}
+.navbar {
+  display: flex;
+  background-color: #0071f8;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 25px;
+}
+.navbar-btns:hover{
+    background-color: orangered;
+    padding: 2px 8px;
+    border-radius: 10px;
+
+}
+
+.buttons > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#home:hover{
+    background-color: #1a7ff9;
+  padding: 2px 15px;
+  border-radius: 10px;
+   
+}
+
+#home {
+  background-color: #1a7ff9;
+  padding: 2px 15px;
+  border-radius: 10px;
+}
+#signbtn {
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+.page {
+  width: 100%;
+  display: flex;
+  background-color: #1a7ff9;
+  column-gap: 30px;
+  height: 90vh;
+  border-bottom-right-radius: 170px;
+  border-bottom-left-radius: 170px;
+  margin-bottom: 30px;
+  z-index: -1;
+}
+.page-text {
+  width: 70%;
+  text-wrap: wrap;
+  margin: 30px 40px;
+}
+.page-text > h1,
+h2,
+p {
+  color:black;
+}
+.page-img {
+    margin-top: 30px;
+  width: 50%;
+  
+  
+}
+.page-img-one{
+    border-radius: 20px;
+}
+.rate{
+    position: relative;
+    left:300px;
+    top: 45px;
+    background: #1a7ff9;
+    padding: 10px 25px;
+    border: black 1px solid;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.offer{
+    position:relative;
+    top: -65px;
+    left: -30px;
+    background-color: orangered;
+    border-radius: 50%;
+    /* padding: 55px 40px; */
+    height: 100px;
+    width:100px;
+    color: #fff;
+    display: inline-block;
+    /* justify-content: center; */
+    align-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    bottom: 30px;
+    font-size: 40px;
+
+}
+.page-text > p{
+    margin-bottom: 100px;
+}
+.page-input {
+ width: 70%;
+ padding: 20px;
+ display: inline;
+ background-color: white;
+ border-radius: 30px;
+ position: relative;
+
+}
+.page-input > span {
+  background-color: orangered;
+  padding: 19px 40px;
+  border-radius: 15px ;
+  font-size: 20px;
+  border-radius: 30px;
+  position: absolute;
+  bottom:-1px;
+  right: -50px;
+ 
+}
+.input-bar {
+  border: none;
+  outline: none;
+  width: 40%; 
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    bottom: 100px;
+    z-index: 1 ;
+    
+}
+.cards > .card1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px 45px;
+    box-shadow: 5px 5px 5px rgb(94, 92, 92);
+    border-radius: 10px;
+    
+}
+.card1 > div{
+    background-color: blue;
+    border-radius: 50%;
+    height: 70px;
+    width: 55px;
+    padding: 15px 25px; 
+}
+.card1 > p{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.trending-page{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.trending-page > games{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+   
+
+}
+.trending-page > h2{
+    position: relative;
+    left: 80px ;
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+#tg{
+    position: absolute;
+    left: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#va{
+    position: absolute;
+    right: 80px;
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#va:hover{
+    background-color: #0071f8;
+}
+.game-cards{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  
+}
+.cards-img{
+   
+  background-color: rgb(238,238,238);
+  border-radius: 20px;
+}
+.cards-img > img {
+    border-radius: 20px;
+}
+.mostplayed{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    background-color:rgb(238,238,238); 
+    border-radius: 20px;
+}
+.mostplayed-cards{
+    margin-top: 20px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.mostplayed-cards > img{
+    border-radius: 20px;
+}
+.mostplayed-cards > .text{
+   position: relative;
+   left: 60px;
+}
+.mostplayed-cards > .name{
+    position: relative;
+   left: 25px;
+}
+.mostplayed-cards > .explore-btn{
+    position: relative;
+    left: 45px;  
+    top: 8px;
+    background-color: orangered ; 
+    display: inline;
+    padding:5px 15px;
+    border-radius: 10px;
+}
+.mostplayed-cards > .explore-btn:hover{
+    background-color: #0071f8;
+}
+.categories-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.categories{
+   text-align: center;
+   margin-top: 60px;
+}
+.categories-h4{
+    color: rgb(11, 6, 4);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.categories-h1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.categories-cards{
+    background-color: #0071f8;
+    border-radius: 20px;
+
+}
+.categories-images{
+    border-radius: 20px;
+}
+.categories-p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.bottom-page{
+    margin-top: 50px;
+    position: relative;
+}
+.bottom-left{
+    background-color: rgb(228, 226, 226);
+    width: 40vw;
+    border-radius: 20px;
+    height: 60vh;
+    padding: 30px;
+    z-index: 1;
+}
+#prices{
+    color: #0071f8;
+}
+.bottom-image{
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left:600px;
+    border-radius: 20px;
+    height: 50vh;
+}
+.shop-now{
+    background-color: orangered;
+    display: inline;
+    padding: 20px 30px;
+    border-radius: 40px;
+    position:absolute;
+    left: 170px;
+    bottom: 550px;
+    text-transform: capitalize;
+font-weight: bold;
+font-size: 15px;
+}
+.shop-now:hover{
+    background-color: #0071f8;
+}
+.bottom-right{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(228, 226, 226);
+    width: 30vw;
+    border-radius: 20px;
+    padding: 30px;
+    bottom: 350px;
+    left: 770px;
+    height: 50vh;
+}
+.subscribe{
+    color: #0071f8;
+}
+.email-form{
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+.email{
+    
+    width: 20vw;
+    border: none;
+    outline: none;
+}
+.snow{
+    background-color: orangered;
+    padding: 10px 10px;
+    border-radius: 20px;
+    position:absolute;
+    right:10px;
+    bottom: 187px;
+   
+}
+.snow:hover{
+    background-color: #0071f8;
+}
+.footer{
+    background-color: #0071f8;
+    
+    height:40vh;
+    text-align: center;
+    color: white;
+    border: top right radius 90px; ;
+    border-top-left-radius:90px ;
+}
