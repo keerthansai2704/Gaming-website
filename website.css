@@ -51,7 +51,7 @@ body{
   display: flex;
   background-color: #1a7ff9;
   column-gap: 30px;
-  height: 90vh;
+  height: 100vh;
   border-bottom-right-radius: 170px;
   border-bottom-left-radius: 170px;
   margin-bottom: 30px;
